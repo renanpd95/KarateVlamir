@@ -630,7 +630,7 @@ footer a{
         padding-bottom: 2vw;
     }
     .midia-social-nav img{
-        width: 16vw;
+        width: 10vw;
     }
    
 
@@ -875,11 +875,9 @@ footer a{
         width: 100%;
         text-align: center;
         margin-top: 15vw;
-        margin-left: 0vw;
-        
+        margin-left: 0vw;  
     }
 
- 
     .historia-home a{
         font-size: 7vw;
         padding: 6vw 15vw 6vw 15vw;
