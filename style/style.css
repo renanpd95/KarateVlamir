@@ -238,8 +238,6 @@ body::-webkit-scrollbar-thumb {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 100%;
-    overflow: hidden;
-
 
 }
 
@@ -482,7 +480,7 @@ body::-webkit-scrollbar-thumb {
     left: 19vw;
     top: 10vw;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
-    overflow-x: hidden;
+    
 }
 
 .mestre-home img{
@@ -760,6 +758,10 @@ footer a{
         color: #ffffff;
         font-size: 6vw;
         z-index: 9;  
+    }
+
+    .historia-home{
+        overflow: hidden;
     }
 
     .historia-home .historia-home-text{
