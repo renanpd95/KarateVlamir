@@ -1324,12 +1324,12 @@ footer a{
     /*Sobre-banner*/
     .sobre-banner{
         height: auto;
-        padding-bottom: 10vw;
+        padding-bottom: 33vw;
     }
     .sobre-banner .sobre-text p{
-        font-size: 3vw;
+        font-size: 5vw;
         padding: 0vw;
-        margin: 5vw 36vw 5vw 36vw;
+        margin: 5vw 20vw 5vw 20vw;
     }
 
     .sobre-nossa-academia{
