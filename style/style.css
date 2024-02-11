@@ -749,6 +749,112 @@ footer a{
 
 
 /*
+  _   _   ___   ____    _____    ___    ____    ___      _    
+ | | | | |_ _| / ___|  |_   _|  / _ \  |  _ \  |_ _|    / \   
+ | |_| |  | |  \___ \    | |   | | | | | |_) |  | |    / _ \  
+ |  _  |  | |   ___) |   | |   | |_| | |  _ <   | |   / ___ \ 
+ |_| |_| |___| |____/    |_|    \___/  |_| \_\ |___| /_/   \_\
+                                                              
+
+
+*/
+
+.historia-banner{
+    background-image: url('../img/historia-banner.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10vw;
+    text-align: center;
+    padding-top: 15vw;
+    z-index: 9;
+}
+
+.historia-text{
+    width: 100%;
+    text-align: center;
+
+}
+.historia-banner p{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 5vw 40vw 5vw 40vw;
+    font-size: 1.5vw;
+    padding: 1vw 3vw 1vw 3vw;
+    border: 1px solid #ffffff; 
+}
+
+.button-arrow{
+    bottom: 0;
+    right: 1vw;
+    font-size: 2vw;
+    position: fixed;   
+
+}
+.button-arrow a{
+    text-decoration: none;
+    z-index: 5;
+    
+}
+
+.historia-index{
+    background-color: #000000;
+}
+
+.historia-index h2{
+    text-align: center;
+    font-weight: bold;
+    color: #EE1B24;
+}
+
+.historia-index p{
+    color: #ffffff;
+}
+.historia-index a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.historia-index a:hover{
+    color: #EE1B24;
+}
+
+.historia-conteudo{
+    padding-top: 8vw;
+}
+
+.historia-conteudo h3{
+    text-align: center;
+    font-weight: bold;
+    color: #EE1B24;
+    margin-bottom: 3vw;
+    background-color: #000000;
+    padding: 2vw;
+}
+
+.historia-conteudo h4{
+    font-weight: 600;
+    
+}
+
+.historia-conteudo p{
+    text-align: justify;
+    
+}
+
+.historia-conteudo .historia-img img{
+    width: 50vw;
+    
+}
+
+
+
+
+
+
+
+/*
   __  __    ___    ____    ___   _       _____ 
  |  \/  |  / _ \  | __ )  |_ _| | |     | ____|
  | |\/| | | | | | |  _ \   | |  | |     |  _|  
@@ -1277,7 +1383,30 @@ footer a{
 
     }
 
+    /* historia-do karate*/
+    .historia-banner{
+        height: auto;
+        padding-bottom: 10vw;
+    }
+    .historia-banner .historia-text p{
+        font-size: 3vw;
+        padding: 0vw;
+        margin: 5vw 36vw 5vw 36vw;
+    }
+    .historia-conteudo img{
+        width: 100%;
+    }
 
+    .historia-conteudo .historia-img img{
+        width: 100%;
+    }
+
+    .historia-index a{
+        padding-top: 5vw;
+        
+    }
+
+    /* historia-do karate*/
     
 
 

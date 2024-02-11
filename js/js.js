@@ -22,3 +22,18 @@ function scrollFunction() {
     }
 }
 
+
+// Função para verificar o scroll e exibir a imagem quando necessário
+window.addEventListener('scroll', function() {
+    var imagem = document.getElementById('imagem-scroll');
+    var scrollPosition = window.scrollY;
+
+    // Ajuste o valor abaixo conforme necessário para determinar quando exibir a imagem
+    if (scrollPosition > 200) {
+      imagem.style.display = 'block'; // Exibe a imagem
+    } else {
+      imagem.style.display = 'none'; // Oculta a imagem
+    }
+  });
+  
+
