@@ -1386,12 +1386,12 @@ footer a{
     /* historia-do karate*/
     .historia-banner{
         height: auto;
-        padding-bottom: 10vw;
+        padding-bottom: 33vw;
     }
     .historia-banner .historia-text p{
-        font-size: 3vw;
+        font-size: 5vw;
         padding: 0vw;
-        margin: 5vw 36vw 5vw 36vw;
+        margin: 5vw 20vw 5vw 20vw;
     }
     .historia-conteudo img{
         width: 100%;
@@ -1401,9 +1401,16 @@ footer a{
         width: 100%;
     }
 
+    .historia-index h2{
+        font-size: 8vw;  
+    }
+
     .historia-index a{
-        padding-top: 5vw;
-        
+        font-size: 6vw;  
+    }
+
+    .historia-index .index-ancoras{
+        margin-top: 5vw;
     }
 
     /* historia-do karate*/
