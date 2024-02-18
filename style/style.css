@@ -1719,6 +1719,10 @@ footer a{
         padding: 0vw;
         margin: 5vw 20vw 5vw 20vw;
     }
+
+    .professores-title h2{
+        font-size: 5vw;
+    }
     .professores-cads .card{
         width: 100%;
     }
@@ -1737,6 +1741,10 @@ footer a{
     }
     .alunos-cads .card{
         width: 100%;
+    }
+
+    .alunos-title h2{
+        font-size: 5vw;
     }
     /* alunos*/
     
