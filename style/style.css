@@ -1742,6 +1742,31 @@ footer a{
     
 
     /* mestre*/
+    .mestre-banner{
+        background-image: url('../img/mestre-banner.jpeg');
+        width: 100%;
+        height: 60vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -10vw;
+        text-align: center;
+        padding-top: 15vw;
+        z-index: 9;
+    }
+    .mestre-introducao-text p{
+        margin-top: 5vw;
+    }
+
+    .mestre-banner .mestre-text p{
+        font-size: 5vw;
+        padding: 0vw;
+        margin: 30vw 20vw 5vw 20vw;
+    }
+    .mestre-title h2{
+        font-size: 5vw;
+    }
+
     .mestre-galery-mobile{
         display: inline;
     }
