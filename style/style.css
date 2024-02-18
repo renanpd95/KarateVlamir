@@ -924,6 +924,98 @@ footer a{
 .mestre-historia{
     padding-top: 3vw;
 }
+.galery-mestre{
+    position: relative;
+}
+
+.mestre-imagem2 {
+    position: absolute;
+    top: -40vw;
+    animation: moveUpDown 2s infinite alternate ease-in-out;
+}
+
+.mestre-imagem2 img{
+    width: 20vw;
+}
+
+.mestre-imagem3 {
+    position: absolute;
+    right: 1vw;
+    top: -20vw;
+    animation: moveDownUp 2s infinite alternate ease-in-out;
+}
+
+.mestre-imagem3 img{
+    width: 20vw;
+}
+
+.mestre-imagem4 {
+    position: absolute;
+    top: -1vw;
+    animation: moveUpDown 4s infinite alternate ease-in-out;
+}
+
+.mestre-imagem4 img{
+    width: 20vw;
+}
+
+.mestre-imagem5 {
+    position: absolute;
+    top: 10vw;
+    right: 1vw;
+    animation: moveDownUp 4s infinite alternate ease-in-out;
+}
+
+.mestre-imagem5 img{
+    width: 20vw;
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+        
+         /* ajuste conforme necessário */
+    }
+}
+
+
+@keyframes moveDownUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px); /* ajuste conforme necessário */
+    }
+}
+
+
+.close {
+    font-size: 3rem;
+    font-weight: 600;
+    color:#ffffff; /* Cor do ícone */
+    background-color: #ffffff00;
+    border: none;
+    padding-bottom: -1vw;
+    position: absolute;
+}
+
+.close:hover {
+    color: #ff0000; /* Cor do ícone ao passar o mouse */
+    text-decoration: none;
+    opacity: 0.8;
+}
+.modal-content{
+    background-color: #00000000;
+}
+
+.mestre-galery-mobile{
+    display: none;
+}
+
+   
 
 /*
                                                 
@@ -1648,6 +1740,20 @@ footer a{
     }
     /* alunos*/
     
+
+    /* mestre*/
+    .mestre-galery-mobile{
+        display: inline;
+    }
+
+    .mestre-historia h3{
+        text-align: justify;
+    }
+    .mestre-imagem2,.mestre-imagem3,.mestre-imagem4,.mestre-imagem5{
+    display: none;
+    }
+   
+    /* mestre*/
 
 
 }
