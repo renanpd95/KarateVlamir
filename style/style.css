@@ -42,6 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-header a{
     color: #ffffff;
+    font-size: 1.2vw;
 }
 
 .nav-header a:hover{
@@ -641,7 +642,7 @@ footer a{
 /*sobre-nossa-academia*/
 
 .sobre-nossa-academia{
-    padding-top: 5vw;
+    padding: 5vw 5vw 0vw 5vw;
 }
 
 .sobre-nossa-academia-text h3{
@@ -678,22 +679,26 @@ footer a{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 5vw ;
+    padding: 10vw 10vw 40vw 10vw;
+}
+
+.sobre-banner2 img{
+    width: 30vw;
 }
 .sobre-banner2-text h2{
     color: #EE1B24;
     font-weight: 400;
     font-size: 1.5vw;
-    padding-top: 4vw;
     padding-bottom: 2vw;
 }
 .sobre-banner2-text p{
     color: #ffffff;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-weight: 200;
     text-align: justify;
     
 }
+
 
 /*sobre-nossa-academia*/
 
@@ -702,12 +707,22 @@ footer a{
 
 .sobre-galery{
     margin-top: -4vw;
+    overflow: hidden;
+    padding: 2vw 10vw 2vw 10vw;
+    
+}
+
+.sobre-card{
+    width: 25vw;
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 2vw;
 }
 
 
 .sobre-galery img{
-    width: 30vw;
-    height: 40vh;
+    min-width: 30vw;
+    background-position:unset;
     transition-duration: 0.5s;
     
 }
@@ -721,6 +736,10 @@ footer a{
     height: auto;
     transform: none;
     filter: none;
+}
+
+.modal-content{
+    width: fit-content;
 }
 
 .sobre-conhecer h4{
@@ -902,15 +921,16 @@ footer a{
 .mestre-introducao{
     background-image: url('../img/mestre-banner2.png');
     width: 100%;
-    padding: 5vw;
+    padding: 10vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .mestre-introducao img{
-    width: 100%;
+    width: 30vw;
 }
 .mestre-introducao p{
+    font-size: 1.2vw;
     color: #ffffff;
     text-align: justify;
 }
@@ -922,7 +942,8 @@ footer a{
     text-align: justify;
 }
 .mestre-historia{
-    padding-top: 3vw;
+    padding: 6vw;
+
 }
 .galery-mestre{
     position: relative;
@@ -970,6 +991,13 @@ footer a{
     width: 20vw;
 }
 
+.mestre-text-main h3{
+    font-size:2vw;
+}
+.mestre-text-main p{
+    font-size:1.3vw;
+}
+
 @keyframes moveUpDown {
     0% {
         transform: translateY(0);
@@ -1009,6 +1037,7 @@ footer a{
 }
 .modal-content{
     background-color: #00000000;
+ 
 }
 
 .mestre-galery-mobile{
@@ -1138,6 +1167,78 @@ footer a{
 .alunos-cads p{
     text-align: justify;
 }
+
+
+/*Noticias*/
+.noticias-banner{
+    background-image: url('../img/noticias-banner.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    margin-top: -10vw;
+    text-align: center;
+    padding-top: 15vw;
+}
+.noticias-text{
+    width: 100%;
+    text-align: center;
+
+}
+.noticias-banner p{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 5vw 40vw 5vw 40vw;
+    font-size: 1.5vw;
+    padding: 1vw 3vw 1vw 3vw;
+    border: 1px solid #ffffff; 
+}
+.noticia-principal{
+    padding-top: 3vw;
+}
+.noticia-principal a{  
+    text-decoration: none;
+}
+.cards-principal {
+    text-align: left;
+}
+
+.cards-principal h6{
+    font-weight: bold;
+    font-size: 1vw;
+    color: #EE1B24  ;
+}
+.cards-principal h5{
+    font-weight: bold;
+    font-size: 2vw;
+    
+}
+
+.noticias-ultimas{
+    text-align: left;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+}
+.noticias-ultimas h5{
+    color: #EE1B24;
+    font-weight: bold;   
+}
+
+.noticias-ultimas h6{
+    font-weight: bold;
+    
+}
+
+.noti-1{
+    padding-top: 1vw;
+    border-bottom: 1px solid;
+}
+.noti-1:hover{
+    background-color: #EE1B24;
+    cursor: pointer;
+}
+
 
 
 
