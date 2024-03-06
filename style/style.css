@@ -1312,6 +1312,37 @@ footer a{
     font-size: 1.2vw;
 }
 
+/*noticias*/
+
+/*contato*/
+.contato-banner{
+    background-image: url('../img/contato-banner.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    margin-top: -10vw;
+    text-align: center;
+    padding-top: 15vw;
+}
+
+
+.contato-banner p{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 5vw 40vw 5vw 40vw;
+    font-size: 1.5vw;
+    padding: 1vw 3vw 1vw 3vw;
+    border: 1px solid #ffffff; 
+}
+
+.contato-text{
+    width: 100%;
+    text-align: center;
+
+}
+/*contato*/
 
 
 
@@ -2025,4 +2056,28 @@ footer a{
 
     /*noticias*/
 
+
+/*contato*/
+    .contato-banner{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -10vw;
+        text-align: center;
+        padding-bottom: 30vw;
+        z-index: 9;
+    }
+
+    .contato-banner .contato-text p{
+        font-size: 5vw;
+        padding: 0vw;
+        margin: 15vw 20vw 5vw 20vw;
+    }
+
+    .contato-text p{
+        margin-bottom: 5vw;
+    }
+/*contato*/
 }
