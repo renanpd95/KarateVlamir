@@ -2013,6 +2013,11 @@ footer a{
         padding-top: 15vw;
         z-index: 9;
     }
+
+    .mestre-introducao {
+        padding: 4vw;
+    }
+
     .mestre-introducao-text p{
         margin-top: 5vw;
     }
