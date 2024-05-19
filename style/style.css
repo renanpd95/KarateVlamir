@@ -828,6 +828,10 @@ footer a{
     position: fixed;   
 
 }
+.button-arrow img{
+    width: 15vw;  
+
+}
 .button-arrow a{
     text-decoration: none;
     z-index: 5;
