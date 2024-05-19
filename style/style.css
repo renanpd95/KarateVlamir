@@ -821,6 +821,7 @@ footer a{
 }
 
 .button-arrow{
+    z-index: 2;
     bottom: 0;
     right: 1vw;
     font-size: 2vw;
