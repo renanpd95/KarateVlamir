@@ -1725,6 +1725,7 @@ footer a{
 
 /*mestre*/
 
+
     .mestre-home{
         margin-top: 1vw;         
     }
@@ -1795,6 +1796,22 @@ footer a{
         font-weight: bold;   
         text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
     
+    }
+
+    .mestre-introducao img{
+        width: 100%;
+    }
+
+    .mestre-introducao-text p{
+        font-size: 3.5vw;
+    }
+
+    .mestre-historia h3{
+        font-size: 4.5vw;
+    }
+
+    .mestre-text-main p{
+        font-size: 3.5vw; 
     }
 
     /*CONTATO*/
