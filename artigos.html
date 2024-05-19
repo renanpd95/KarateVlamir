@@ -15,8 +15,8 @@
 </head>
 <body>
 
-    <script src="bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="js/js.js"></script>
+  <script src="bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script src="js/js.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -48,10 +48,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="alunos.html">Alunos</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Artigos e Noticias</a>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle actives" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Artigos e Noticias</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="artigos.html">Artigos</a></li>
+                  <li><a class="dropdown-item actives" href="artigos.html">Artigos</a></li>
                   <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
                 </ul>
               </li>
@@ -75,58 +75,27 @@
           </div>
         </div>
     </nav>
-  </header>
+  </header>   
 
     <section class="noticias-banner">
         <div class="noticias-text">
-            <p>Home > Notícias > Notícia 1</p>
+            <p>Home > Artigos</p>
         </div>
     </section>
 
 
-    <section class="noticia-principal">
-      <div class="container-fluid text-center">
-        <div class="row align-items-start">
-          <div class="noticia-sozinha col-sm-12 col-md-9 col-lx-9">
-            <img src="img/noticia-1.png" alt="">
-            <h6>29/01/2024</h6>
-            <h3>Notícia Principal</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum sem id malesuada aliquam. Suspendisse vehicula cursus leo vel luctus. Nam vitae aliquam dui. Fusce et pulvinar lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel eros nulla. Fusce hendrerit risus eget venenatis tempor. Integer at tortor eget dui scelerisque faucibus.<br>
+    <section class="cards-artigos">
 
-            Nullam ipsum nisi, luctus in mi et, pharetra iaculis tellus. Maecenas ornare lorem nisi, sit amet feugiat risus porta non. Curabitur vitae facilisis felis, a fermentum lorem. Ut sit amet laoreet diam. Mauris sed auctor orci. Donec ut leo mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br><br>
-
-            Duis tempor, est eget iaculis pretium, ligula felis pretium ante, in dictum velit metus eget mi. Integer ac quam efficitur, consectetur ipsum ut, porttitor orci. Sed vel massa sit amet ante blandit pellentesque et non felis. Donec tincidunt nulla a est dapibus rhoncus. Vestibulum finibus nec ante in elementum. Nunc pharetra quam leo, a bibendum est pharetra ac. Mauris porttitor sit amet nisl et pellentesque. Sed lacinia molestie lobortis.<br>
-
-            Cras et rutrum sem. Nam tincidunt condimentum erat consequat molestie. Duis tincidunt, ante nec mattis tempor, leo dui gravida diam, vel faucibus quam nisi vitae lacus. Nulla vitae pulvinar neque. Nam maximus, sapien id elementum ullamcorper, ligula nunc viverra ex, sed gravida libero augue et nisi. Morbi id cursus leo, vel consequat elit. Suspendisse pellentesque leo ut tortor efficitur lacinia. Curabitur risus quam, posuere eu dolor ut, cursus lobortis lorem. Curabitur facilisis placerat vulputate. Nunc pellentesque velit vitae fringilla volutpat. Nulla scelerisque massa at pellentesque tincidunt. Sed elementum dolor at neque pulvinar congue. Curabitur eu ex nec diam euismod auctor nec id enim. Mauris nulla dui, porttitor et ante eu, mollis sodales ligula.<br>
-
-            Cras molestie, est vel gravida malesuada, mauris justo malesuada lectus, eget fringilla nunc ex non nibh. Nullam vitae facilisis lorem. Suspendisse luctus mattis elit sit amet tempus. Sed tincidunt volutpat consectetur. Praesent nec est accumsan, mattis velit at, rhoncus justo. Curabitur molestie condimentum facilisis. Fusce dapibus sodales sapien, in commodo lacus elementum ac. Nulla sagittis mauris id ligula faucibus facilisis. Fusce id risus porta, facilisis augue quis, rutrum magna. Phasellus finibus consectetur nunc eu tincidunt. Ut sit amet aliquam dolor.</p>
-
-          </div>
-          <div class="noticias-ultimas col-sm-12 col-md-3 col-lx-3">
-           <h5>Ultimas Notícias</h5>
-           <div class="noti-1">
-            <h6>29/01/2024 - Nome notícia</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit....</p>
-           </div>
-           <div class="noti-1">
-            <h6>29/01/2024 - Nome notícia</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit....</p>
-           </div>
-           <div class="noti-1">
-            <h6>29/01/2024 - Nome notícia</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit....</p>
-           </div>
-           <div class="noti-1">
-            <h6>29/01/2024 - Nome notícia</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit....</p>
-           </div>
+        
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">O BUDO e seus cincos Estados Mentais</h5>
+            <p class="card-text">A proposta principal do Budo é desenvolver um carater forte...</p>
+            <a target="_blank" href="pdf/O BUDO e seus cincos Estados Mentais.pdf" class="btn btn-dark">Visualizar</a>
           </div>
         </div>
-      </div>
 
     </section>
-
-    
 
 
 

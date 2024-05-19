@@ -68,6 +68,22 @@ body::-webkit-scrollbar-thumb {
 
 /*NAVBAR*/
 
+/*DROPDOWN*/
+
+
+.dropdown a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #000000; /* Background color of the dropdown */
+    border-color: #444; /* Border color of the dropdown */
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #000000;
+}
+/*DROPDOWN*/
 
 /*BANNER*/
 .banner{
@@ -1313,6 +1329,15 @@ footer a{
 }
 
 /*noticias*/
+
+
+/*artigos*/
+.cards-artigos{
+    padding: 3vw;
+}
+
+
+/*artigos*/
 
 /*contato*/
 .contato-banner{
