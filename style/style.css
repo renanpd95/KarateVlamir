@@ -829,7 +829,7 @@ footer a{
 
 }
 .button-arrow img{
-    width: 15vw;  
+    width: 5vw;  
 
 }
 .button-arrow a{
@@ -1185,12 +1185,20 @@ footer a{
 .alunos-cads{
     padding-top: 3vw;
     padding-bottom: 5vw;
+    
 }
 .alunos-cads h6{
     color: #EE1B24;
     font-weight: bold;
 }
+.alunos-cads h4{
+    font-size: 1.6vw;
+}
+.alunos-cads h6{
+    font-size: 1.4vw;
+}
 .alunos-cads p{
+    font-size: 1.2vw;
     text-align: justify;
 }
 
