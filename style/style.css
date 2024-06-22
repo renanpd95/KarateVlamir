@@ -40,9 +40,13 @@ body::-webkit-scrollbar-thumb {
     z-index: 4;
 }
 
+
 .nav-header a{
     color: #ffffff;
-    font-size: 1.2vw;
+    font-size: 1.2vw;   
+    padding: 2vw 2vw 2vw 2vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .nav-header a:hover{
@@ -168,7 +172,7 @@ body::-webkit-scrollbar-thumb {
 /*HOME NOSSA ACADEMIA*/
 
 .nossa-academia{
-    padding-top: 10vw;
+    padding: 7vw 10vw;
     margin-bottom: 15vw;
     position: relative;
 }
@@ -227,6 +231,7 @@ body::-webkit-scrollbar-thumb {
     padding: 2vw 3.5vw 2vw 3.5vw;
     background-color: #000000;
     color: #ffffff;
+    font-size: 1.3vw;
 }
 .nossa-academia a:hover{
     background: #EE1B24;
@@ -271,7 +276,8 @@ body::-webkit-scrollbar-thumb {
 
 }
 .historia-home .historia-home-text h4{
-    font-size: 2.5vw;
+    font-size: 1.9vw;
+    font-weight: bold;
     
 }
 
@@ -365,7 +371,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #000000;
     color: #ffffff;
     margin-bottom: 10vw;
-    
+    font-size: 1.3vw;
   
 }
 .historia-home a:hover{
@@ -425,6 +431,12 @@ body::-webkit-scrollbar-thumb {
     font-size: 4vw;
     font-weight: bold;
     color: #000000;
+}
+.noticias-home h5{
+    font-size: 1.3vw;
+}
+.noticias-home p{
+    font-size: 1.2vw;
 }
 
 .noticias-home a{
@@ -519,6 +531,7 @@ body::-webkit-scrollbar-thumb {
     background-color: #EE1B24;
     color: #ffffff;
     font-weight: 600;
+    font-size: 1.3vw;
 }
 .mestre-home .button-mestre a:hover{
     text-decoration: none;
@@ -560,6 +573,7 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     text-align: justify;
     margin-bottom: 2vw;
+    font-size: 1.3vw;
 }
 
 .contato-home iframe{
@@ -580,6 +594,10 @@ body::-webkit-scrollbar-thumb {
     color: #000000;
 }
 
+.contato-home a img{
+width: 2vw;
+}
+
 /* CONTATO HOME*/
 
 
@@ -596,10 +614,23 @@ footer{
     margin-top: 1vw;
 }
 
+.footer-midia-social a img{
+    width: 2vw;
+}
+
+.footer-logo img{
+    width: 12vw;
+}
+
+.footer-midia-social a img{
+    width: 2vw;
+}
+
 footer p{
     margin: -1vw;
     margin: 1vw;
     color: #ffffff;
+    font-size: 1.2vw;
 }
 footer a{
     text-decoration: none;
@@ -1117,15 +1148,21 @@ footer a{
     padding: 2vw;
 }
 .professores-cads{
-    padding-top: 3vw;
-    padding-bottom: 5vw;
+    padding: 5vw;
+}
+.professores-cads h4{
+    font-size: 1.7vw;
+    font-weight: bold;
+    margin: 1.2vw 0vw;
 }
 .professores-cads h6{
+    font-size: 1.3vw;
     color: #EE1B24;
     font-weight: bold;
 }
 .professores-cads p{
-    text-align: justify;
+    font-size: 1.2vw;
+    text-align: center;
 }
 
 
@@ -1141,6 +1178,18 @@ footer a{
                                           
 
 */
+
+.card-fixed-height{
+    height: 100%; /* Defina a altura fixa desejada */
+    display: flex;
+    flex-direction: column;
+}
+.card-body {
+    flex: 1;
+    overflow: hidden; /* Esconde o conteúdo excedente */
+    display: flex;
+    flex-direction: column;
+}
 
 
 .alunos-banner{
@@ -1421,6 +1470,7 @@ footer a{
 
     .nav-header a{
         font-size: 5vw;
+       
     }
    
 
@@ -1479,11 +1529,12 @@ footer a{
     .nossa-academia {
         text-align: center;
         position: relative;
+        padding: 15vw 3vw;
        
     }
 
     .nossa-academia h3{
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: center;
         color: #EE1B24;
         font-weight: bold;
@@ -1491,13 +1542,13 @@ footer a{
     }
     
     .nossa-academia h4{
-        font-size: 6vw;
+        font-size: 8vw;
         text-align: center;
         font-weight: bold;
     }
     
     .nossa-academia p{
-        font-size: 4vw;
+        font-size: 6vw;
         text-align: justify;
         margin-top: 6vw;
         margin-bottom: 15vw;
@@ -1514,6 +1565,7 @@ footer a{
     .nossa-academia .nossa-academia-background{
         width: 100%;
         text-align: center;
+        margin-top: 8vw;
     }
 
     .nossa-academia .background-black{
@@ -1563,7 +1615,7 @@ footer a{
     }
     
     .historia-home .historia-home-text h3{
-        font-size: 5vw;
+        font-size: 6vw;
         font-weight: bold;
         color: #EE1B24;
     }
@@ -1718,6 +1770,12 @@ footer a{
         font-weight: bold;
         color: #000000;
     }
+    .noticias-home h5{
+        font-size: 6vw;
+    }
+    .noticias-home p{
+        font-size: 5vw;
+    }
 
     .noticias-home .noticias-button{
         margin-bottom: 30vw;
@@ -1841,8 +1899,9 @@ footer a{
 
     .contato-home .colum-left p{
         width: 100%;
-        text-align: center;
+        text-align: justify;
         margin-bottom: 2vw;
+        font-size: 6vw;
     }
 
     .contato-home iframe{
@@ -1867,17 +1926,12 @@ footer a{
         margin-top: 8vw;
    
     }
+    .contato-home a img{
+        width: 10vw;
+    }
 
     .contato-home iframe{
         padding: 0vw;
-    }
-
-    /*FOOTER*/
-    .footer-logo img{
-        margin: 5vw 1vw 5vw 1vw;
-    }
-    .footer-midia-social{
-        margin: 4vw 1vw 6vw 1vw;
     }
 
     /*Sobre-banner*/
@@ -1990,6 +2044,23 @@ footer a{
     }
     .professores-cads .card{
         width: 100%;
+    }
+
+    .professores-cads{
+        padding: 2vw;
+    }
+    
+    .professores-cads h4{
+        font-size: 7vw;
+    }
+    .professores-cads h6{
+        font-size: 5vw;
+        color: #EE1B24;
+        font-weight: bold;
+    }
+    .professores-cads p{
+        font-size: 5vw;
+        text-align: center;
     }
     /* nossos-professores*/
 
@@ -2141,4 +2212,18 @@ footer a{
         margin-bottom: 5vw;
     }
 /*contato*/
+
+/*FOOTER*/
+    .footer-logo img{
+        margin: 5vw 1vw 5vw 1vw;
+        width: 50vw;
+    }
+    .footer-midia-social{
+        margin: 4vw 1vw 6vw 1vw;
+    }
+    .footer-midia-social a img{
+        width: 8vw;
+    }
+/*FOOTER*/ 
+
 }
