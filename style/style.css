@@ -272,6 +272,13 @@ body {
 
 }
 
+.box-historia-do-karate{
+    padding: 2vw 10vw;
+}
+.box-historia-do-karate img{
+    width: 100%;
+}
+
 .historia-home .historia-home-text{
     text-align: right;
     padding-right: 7vw;
@@ -901,6 +908,7 @@ footer a{
     text-align: center;
     font-weight: bold;
     color: #EE1B24;
+    font-size: 2vw;
 }
 
 .historia-index p{
@@ -910,6 +918,7 @@ footer a{
     text-decoration: none;
     color: #ffffff;
     cursor: pointer;
+    font-size: 1.3vw;
 }
 .historia-index a:hover{
     color: #EE1B24;
@@ -930,11 +939,13 @@ footer a{
 
 .historia-conteudo h4{
     font-weight: 600;
+    font-size: 2vw;
     
 }
 
 .historia-conteudo p{
     text-align: justify;
+    font-size: 1.3vw;
     
 }
 
@@ -1006,7 +1017,7 @@ footer a{
     width: 30vw;
 }
 .mestre-introducao p{
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: #ffffff;
     text-align: justify;
 }
@@ -1256,20 +1267,20 @@ footer a{
     padding: 2vw;
 }
 .alunos-cads{
-    padding-top: 3vw;
-    padding-bottom: 5vw;
+    padding: 3vw 3vw 5vw 3vw;
     
 }
 .alunos-cads h6{
     color: #EE1B24;
     font-weight: bold;
+    font-size: 1.3vw;
 }
 .alunos-cads h4{
     font-size: 1.6vw;
+    font-weight: bold;
+    margin: 1vw 0vw;
 }
-.alunos-cads h6{
-    font-size: 1.4vw;
-}
+
 .alunos-cads p{
     font-size: 1.2vw;
     text-align: justify;
@@ -1365,11 +1376,13 @@ footer a{
 .noticia-cards h6{
     font-weight: bold;
     color: #EE1B24;
+    font-size: 1.3vw;
 }
 
 .noticia-cards-separado{
     padding: 1vw;
     border: 2px solid;
+ 
     
 }
 .noticia-cards-separado a{
@@ -1378,6 +1391,7 @@ footer a{
 }
 .noticia-cards-separado h3{
     color: #000000;
+    font-size: 1.3vw;
     
 }
 .noticia-cards-separado h3:hover{
@@ -1414,12 +1428,26 @@ footer a{
     font-size: 1.2vw;
 }
 
+
+
 /*noticias*/
 
 
 /*artigos*/
 .cards-artigos{
     padding: 3vw;
+}
+.cards-artigos> .card{
+    width: 20vw;
+}
+.cards-artigos h5{
+    font-size: 1.5vw;
+}
+.cards-artigos p{
+    font-size: 1.3vw;
+}
+.cards-artigos a{
+    font-size: 1.3vw;
 }
 
 
@@ -1929,15 +1957,18 @@ footer a{
     }
 
     .mestre-introducao-text p{
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     .mestre-historia h3{
-        font-size: 4.5vw;
+        font-size: 6vw;
     }
 
     .mestre-text-main p{
-        font-size: 3.5vw; 
+        font-size: 5vw; 
+    }
+    .mestre-historia{
+        padding: 3vw;
     }
 
     /*CONTATO*/
@@ -2086,6 +2117,19 @@ footer a{
         margin-top: 5vw;
     }
 
+    .historia-conteudo p{
+        text-align: justify;
+        font-size: 6vw;
+        
+    }
+
+    .box-historia-do-karate{
+        padding: 3vw;
+    }
+    .historia-conteudo h4{
+        font-size: 8vw;
+    }
+
     /* historia-do karate*/
 
     /* nossos-professores*/
@@ -2140,6 +2184,16 @@ footer a{
     }
 
     .alunos-title h2{
+        font-size: 5vw;
+    }
+    .alunos-cads h4{
+        font-size: 7vw;
+        font-weight: bold;
+    }
+    .alunos-cads h6{
+        font-size: 5vw;
+    }
+    .alunos-cads p{
         font-size: 5vw;
     }
     /* alunos*/
@@ -2246,6 +2300,18 @@ footer a{
         font-size: 7vw;
     }
 
+    .noticia-cards h6{
+        font-size: 5vw;
+    }
+    .noticia-cards-separado h3{
+        font-size: 5vw;
+    }
+
+    .noticia-sozinha p{
+        font-size: 5vw;
+        padding: 2vw;
+    }
+
     /*noticias*/
 
 
@@ -2272,6 +2338,34 @@ footer a{
         margin-bottom: 5vw;
     }
 /*contato*/
+
+/*button arrow*/
+
+    .button-arrow img{
+        width: 20vw;  
+
+    }
+/*button arrow*/
+
+
+/*artigos*/
+
+    .cards-artigos{
+        padding: 3vw;
+    }
+    .cards-artigos> .card{
+        width: 100%;
+    }
+    .cards-artigos h5{
+        font-size: 5vw;
+    }
+    .cards-artigos p{
+        font-size: 5vw;
+    }
+    .cards-artigos a{
+        font-size: 5vw;
+    }
+/*artigos*/
 
 /*FOOTER*/
     .footer-logo img{
