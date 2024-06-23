@@ -7,31 +7,40 @@
    
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+/* Definindo variáveis para as cores */
+:root {
     --sb-track-color: #000000;
     --sb-thumb-color: #EE1B24;
     --sb-size: 10px;
-    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-
 }
 
+/* Estilos para WebKit (Chrome, Safari, Opera) */
 body::-webkit-scrollbar {
-    width: var(--sb-size) 
+    width: var(--sb-size);
 }
-  
-  body::-webkit-scrollbar-track {
+
+body::-webkit-scrollbar-track {
     background: var(--sb-track-color);
     border-radius: 1px;
 }
-  
+
 body::-webkit-scrollbar-thumb {
     background: var(--sb-thumb-color);
     border-radius: 10px;
-    
 }
+
+/* Estilos para Firefox */
+body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    scrollbar-width: var(--sb-size);
+}
+ 
 
 
 /*NAVBAR*/
@@ -694,17 +703,17 @@ footer a{
 
 .sobre-nossa-academia-text h3{
     color: #EE1B24;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 .sobre-nossa-academia-text h2{
     color: #000000;
-    font-size: 2vw;
+    font-size: 1.9vw;
     font-weight: bold;
 }
 .sobre-nossa-academia-text p{
     color: #000000;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     text-align: justify;
     
 }
@@ -723,10 +732,9 @@ footer a{
 .sobre-banner2{
     background-image: url('../img/sobre-banner2.png');
     width: 100%;
-    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10vw 10vw 40vw 10vw;
+    padding: 6vw 6vw 20vw 6vw;
 }
 
 .sobre-banner2 img{
@@ -735,15 +743,25 @@ footer a{
 .sobre-banner2-text h2{
     color: #EE1B24;
     font-weight: 400;
-    font-size: 1.5vw;
+    font-size: 1.9vw;
     padding-bottom: 2vw;
 }
 .sobre-banner2-text p{
     color: #ffffff;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: 200;
     text-align: justify;
     
+}
+
+.sobre-conhecer .map-container {
+    width: 100%;
+  }
+.sobre-conhecer .map-container iframe {
+    width: 100%;
+    height: 40vw;
+    border: 0;
+    padding: 5vw;
 }
 
 
@@ -768,7 +786,7 @@ footer a{
 
 
 .sobre-galery img{
-    min-width: 30vw;
+    min-width: 50vw;
     background-position:unset;
     transition-duration: 0.5s;
     
@@ -783,6 +801,9 @@ footer a{
     height: auto;
     transform: none;
     filter: none;
+}
+.modal.fade .modal-dialog{
+    padding-right: 50vw;
 }
 
 .modal-content{
@@ -807,6 +828,9 @@ footer a{
 }
 .sobre-conhecer .whats-button img:hover {
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sobre-conhecer .whats-button img {
+    width: 15vw;
 }
 
 
@@ -1526,6 +1550,13 @@ footer a{
         font-size: 11vw;
     }
 
+
+
+/*Nossa-academia*/
+
+    .modal.fade .modal-dialog{
+        margin-left: -3vw;
+    }
     .nossa-academia {
         text-align: center;
         position: relative;
@@ -1603,6 +1634,23 @@ footer a{
         font-size: 6vw;
         z-index: 9;  
     }
+
+    .sobre-conhecer .whats-button img{
+        width: 70vw;
+    }
+
+    .modal.fade .modal-dialog{
+        padding: 0vw;
+        padding-top:30vw ;
+    }
+    .modal-body{
+        padding: 0vw;
+    }
+    .sobre-conhecer .map-container iframe{
+        height: 50vh;
+    }
+
+/*Historia-home */
 
     .historia-home{
         overflow: hidden;
@@ -1755,7 +1803,11 @@ footer a{
     .historia-home .palavra-4{
         display: none;
     }
+/*Historia-home */
 
+
+
+/*Noticias-home */
     .noticias-home{
         margin-top: 50vw;
         background-image: url('../img/triangulo-2.png');
@@ -1794,9 +1846,11 @@ footer a{
         font-size: 5vw;
         
     }
+/*Noticias-home */
+
+
 
 /*mestre*/
-
 
     .mestre-home{
         margin-top: 1vw;         
@@ -1950,23 +2004,28 @@ footer a{
         margin-bottom: 20vw;
     }
     .sobre-nossa-academia h3{
-        font-size: 4vw;
-    }
-    .sobre-nossa-academia h2{
         font-size: 6vw;
     }
+    .sobre-nossa-academia h2{
+        font-size: 8vw;
+    }
     .sobre-nossa-academia p{
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
     .sobre-nossa-academia img{
         width: 100%;
     }
+    .sobre-banner2{
+        padding: 6vw 3vw 20vw 3vw;
+    }
 
     .sobre-banner2 h2{
-        font-size: 5vw;
+        margin-top: 5vw;
+        font-size: 6vw;
     }
+    
     .sobre-banner2 p{
-        font-size: 3.5vw;
+        font-size: 5vw;
     }
 
     .sobre-banner2 img{
@@ -1974,9 +2033,10 @@ footer a{
         margin-top: 20vw;
     }
     .sobre-galery{
-        margin-top: -20vw;
-
+        margin-top: 20vw;
+        padding: 2vw;
     }
+    
 
     .sobre-galery img{
         width: 100%;
@@ -1984,7 +2044,7 @@ footer a{
     }
 
     .sobre-conhecer h4{
-        font-size: 3.5vw;
+        font-size: 5vw;
         padding: 3vw;
         text-align: justify;
     }
@@ -2222,7 +2282,10 @@ footer a{
         margin: 4vw 1vw 6vw 1vw;
     }
     .footer-midia-social a img{
-        width: 8vw;
+        width: 10vw;
+    }
+    footer p{
+        font-size: 5vw;
     }
 /*FOOTER*/ 
 
