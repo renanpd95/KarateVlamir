@@ -13,6 +13,12 @@ body {
     overflow-x: hidden;
 }
 
+.error-message {
+    color: red;
+    display: none;
+}
+
+
 /* Definindo variáveis para as cores */
 :root {
     --sb-track-color: #000000;
@@ -78,6 +84,14 @@ body {
 .midia-social img:hover{
     filter: brightness(0) saturate(100%) invert(13%) sepia(95%) saturate(5291%) hue-rotate(352deg) brightness(105%) contrast(117%);
 }
+
+.midia-social-icon a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
 
 /*NAVBAR*/
 
@@ -1486,8 +1500,168 @@ footer a{
 
 
 
+/* ALUNO ACESSO */
+
+.aluno-acesso{
+    background: #f2f2f2;    
+}
+.form{
+    background: #ffffff;
+    padding: 5vw 6vw 2vw 6vw;
+    margin: 2vw;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+#loginForm{
+    padding: 0vw 2vw 0vw 2vw;
+    text-align: center;
+}
+#loginForm h2{
+    font-weight: bold;
+}
+#loginForm .escudo-login{
+    width: 8vw;
+    margin-bottom: 3vw;
+}
+
+.form .button-aluno-acesso {
+    margin-bottom: 3vw;
+}
+    .custom-input {
+    border: none; /* Remove todas as bordas */
+    border-bottom: 2px solid #807c7c; /* Adiciona apenas uma linha embaixo */
+    border-radius: 0; /* Remove cantos arredondados */
+    outline: none; /* Remove o contorno ao focar */
+    width: 100%; /* Faz o campo ocupar a largura completa */
+    padding: 10px; /* Ajusta o espaçamento interno */
+  }
+
+  .custom-input:focus {
+    border-bottom-color: #ff0000; /* Altera a cor da linha ao focar (opcional) */
+  }
 
 
+  
+  .button-aluno-acesso{
+    cursor: pointer;
+    z-index: 8;  
+    position: relative;
+    width: 100%;
+    text-align: center; 
+    text-decoration: none;
+    padding: 1vw 3.5vw 1vw 3.5vw;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+
+
+.button-aluno-acesso:hover{
+    background: #EE1B24;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff; 
+}
+
+
+/* ALUNO ACESSO - FIM */
+
+
+
+
+/* CADASTRO ALUNO */
+
+
+#signupForm{
+    padding: 0vw 2vw 0vw 2vw;
+    text-align: center;
+}
+#signupForm h2{
+    font-weight: bold;
+}
+#signupForm .escudo-login{
+    width: 8vw;
+    margin-bottom: 3vw;
+}
+
+.form .button-aluno-acesso {
+    margin-bottom: 3vw;
+}
+
+.custom-input {
+    border: none; /* Remove todas as bordas */
+    border-bottom: 2px solid #807c7c; /* Adiciona apenas uma linha embaixo */
+    border-radius: 0; /* Remove cantos arredondados */
+    outline: none; /* Remove o contorno ao focar */
+    width: 100%; /* Faz o campo ocupar a largura completa */
+    padding: 10px; /* Ajusta o espaçamento interno */
+  }
+
+  .custom-input:focus {
+    border-bottom-color: #ff0000; /* Altera a cor da linha ao focar (opcional) */
+  }
+
+
+  
+  .button-aluno-acesso{
+    cursor: pointer;
+    z-index: 8;  
+    position: relative;
+    width: 100%;
+    text-align: center; 
+    text-decoration: none;
+    padding: 1vw 3.5vw 1vw 3.5vw;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+
+
+.button-aluno-acesso:hover{
+    background: #EE1B24;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #ffffff; 
+}
+
+
+/* CCADASTRO ALUNO - FIM */
+
+
+
+
+/* PAGINA ALUNOS */
+
+.pagina-aluno-banner{
+    background-image: url('../img/banner-pagina-aluno.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    margin-top: -10vw;
+    text-align: center;
+    padding-top: 15vw;
+}
+.npagina-aluno-text{
+    width: 100%;
+    text-align: center;
+
+}
+.pagina-aluno-banner p{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 5vw 40vw 5vw 40vw;
+    font-size: 1.5vw;
+    padding: 1vw 3vw 1vw 3vw;
+    border: 1px solid #ffffff; 
+}
+
+/* PAGINA ALUNOS - FIM */
 
 
 
@@ -2382,5 +2556,32 @@ footer a{
         font-size: 5vw;
     }
 /*FOOTER*/ 
+
+
+/* LOGIN */
+    .form{
+        margin: 0%;
+    }
+    #loginForm .escudo-login{
+        width: 30vw;
+    }
+    .button-aluno-acesso{
+        cursor: pointer;
+        z-index: 8;  
+        position: relative;
+        width: 100%;
+        text-align: center; 
+        text-decoration: none;
+        padding: 1vw 3.5vw 1vw 3.5vw;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 4vw;
+        margin-top: 5vw;
+    }
+    #signupForm .escudo-login{
+        width: 30vw;
+    }
+
+/* LOGIN */
 
 }

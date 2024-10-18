@@ -16,6 +16,33 @@
 </head>
 <body>
 
+    <!-- script firebase -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyD-UKNABFhPFO8X4JaT3y_ejDnNDSC7GjA",
+          authDomain: "karate-vlamir.firebaseapp.com",
+          projectId: "karate-vlamir",
+          storageBucket: "karate-vlamir.appspot.com",
+          messagingSenderId: "922530851059",
+          appId: "1:922530851059:web:9da8bab4ffb68ee184af86",
+          measurementId: "G-9276MJ03ER"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+      <!-- script firebase -->
+
     <script src="bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="js/js.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -55,7 +82,7 @@
                       <li><a class="dropdown-item" href="artigos.html">Artigos</a></li>
                       <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
                     </ul>
-                  </li>T
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contato.html">Contato</a>
                   </li>
@@ -63,13 +90,8 @@
             <div class="d-flex midia-social-nav">
                     <ul class="midia-social d-flex mt-2 ">
                         <li class="midia-social-icon">
-                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5519981499085&text=Ol%C3%A1,%20estou%20entrando%20em%20contato%20por%20meio%20do%20site!%20%F0%9F%98%8A"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
-                        </li>
-                        <li class="midia-social-icon">
-                            <a target="_blank" href="https://www.instagram.com/vlamir.silva/"><img src="img/Instagram.png" alt="Instagram"></a>
-                        </li>
-                        <li class="midia-social-icon">
-                            <a target="_blank" href="https://www.facebook.com/people/San-Konjo-Kyokai/100083380025012/"><img src="img/Facebook.png" alt="Facebook"></a>
+                            <a class="btn btn-danger" href="aluno-acesso.html" role="button">Login</a>
+
                         </li>
                     </ul><!--midia-social-->
             </div><!--midia-social-nav-->
